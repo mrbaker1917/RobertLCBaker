@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+body {
+    font-family: "Abril Fatface", serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url("./images/Squadron\ FB\ banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    }
+
+.main-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    width: 70%;
+    margin-top: 150px;
+    background-color: rgb(1, 1, 28);
+    color: rgb(229, 238, 241);
+    padding: 0 40px 40px 40px;
+    animation: fadeInAnimation 1s ease-in-out;
+}
+
+.main-content a {
+    color: lightcoral;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content a:hover {
+    color: lightblue;
+}
+
+.main-content h1:hover {
+    color: black;
+    background-color: lightblue;
+}
+
+.main-content h1 {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main-content li {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.main-content table,
+th,
+tr,
+td {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.main-content table th {
+    background-color: #CDB15A;
+    color: black;
+    border-radius: 0px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+    height: 100%;
+  }
+.map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.forms a {
+    list-style-type: none;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid salmon;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.forms a:hover {
+    background-color: white;
+    color: black;
+    filter: blur(0px);
+}
+
+.hidden {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0a0a23;
+    border: 1px solid lightcoral;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .forms {
+        flex-direction: column;
+    }
+    .main-content {
+        margin-top: 250px;
+        width: 90%;
+    }
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input {
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #0a0a23;
+    border: 1px solid lightcoral;
+    color: white;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: salmon;
+    color: black;
+  }
+
+  button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .success {
+    color: gold;
+    font-weight: bold;
+  }
