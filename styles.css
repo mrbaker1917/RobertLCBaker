@@ -40,9 +40,9 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
-    width: 50%;
-    height: 100vh;
+    margin-top: 150px;
+    width: 70%;
+    height: 100%;
     background-color: rgb(1, 1, 28);
     color: rgb(229, 238, 241);
     padding: 100px;
