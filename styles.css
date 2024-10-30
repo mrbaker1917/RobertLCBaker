@@ -40,14 +40,15 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 300px;
     width: 50%;
-    height: 1000px;
+    height: 100vh;
     background-color: rgb(1, 1, 28);
     color: rgb(229, 238, 241);
-    padding: 0 40px 40px 40px;
+    padding: 100px;
     animation: fadeInAnimation 1s ease-in-out;
     opacity: 0.9;
+    font-size: large;
 }
 
 .main-content {
@@ -80,10 +81,6 @@ main {
     text-align: center;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 10px;
-}
-
-.main-content li {
     padding: 10px;
 }
 
