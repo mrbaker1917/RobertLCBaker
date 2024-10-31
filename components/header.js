@@ -127,15 +127,6 @@ class Header extends HTMLElement {
                     <h2>26 December 1933 to 1 July 2024</h2>
                 </div>
             </div>
-            <div class="topnav" id="topnavid">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="login.html">Login</a>
-                <a href="contact.html">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="menu()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
         </header>
         `;
   }
