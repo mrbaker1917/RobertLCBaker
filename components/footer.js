@@ -32,16 +32,8 @@ class Footer extends HTMLElement {
             }
             </style>
             <footer>
-                <p>778-584-1974</p>
+                <h3>Robert L. C. Baker, 1933-2024</h3>
                 <p>2026 Deerbrush Crescent, North Saanich, BC, V8L 0V5, Canada</p>
-                <ul>
-                    <li><a href="https://www.facebook.com/676Kittyhawk/" target="_blank" title="Visit our Facebook page!">
-                            <img src="./images/facebook.png" alt="facebook" height=20></a></li>
-                    <li><a href="https://www.instagram.com/676kittyhawk/" target="_blank"><img src="./images/instagram.png"
-                                alt="Instagram" height="20" title="Visit our Instagram page!"></a></li>
-                    <li><a href="https://maps.google.com/?cid=1560955647004789210" target="_blank"><img
-                                src="./images/google_pin.png" alt="map location" height="20"
-                                title="Locate our hall on a map!"></a></li>
             </footer>
                       `;
   }
